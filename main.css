@@ -1,0 +1,59 @@
+body{
+    background: black;
+}
+
+.feed_instagram{
+
+    display:flex;
+    flex-direction: column;
+}
+    .post{
+        background-color: white;
+        width: 700px;
+        margin: auto;
+        margin-top: 50px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .header{
+        background-color: transparent;
+        display: flex;
+        padding: 10px;
+        margin: auto;
+    }
+        .title{
+            background-color: transparent;
+            width: 650px;
+            padding: 10px;
+        }
+            h5{
+                font-weight: bolder;
+                margin:auto;
+            }
+            p{
+                font-size: 12px;
+                margin:auto;
+            }
+        .numbers_order{
+            background-color: transparent;
+            color: gray;
+            margin:auto;
+        }
+
+    .insta_picture{
+        background-color: transparent;
+                width:100%;
+            }
+            img{
+                width:100%;
+                height: auto;
+            }  
+    .text{
+        background-color: transparent;
+        padding: 15px;
+        padding-top: 5px;
+        text-align: justify; /*<-----------------------------------------------------------*/
+    }
+#button{
+    margin: auto;
+    margin-top: 50px;
+}
